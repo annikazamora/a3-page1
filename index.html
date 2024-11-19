@@ -14,13 +14,21 @@
     
     <style>
       #container,
+      #rightText,
       #test
       
       #container {
         width: 1024 px;
         height: 768 px;
         background-color: #f2f0e6; 
+        padding: 20px;
+        padding-top: 0px;
         
+      }
+      
+      #rightText {
+        float: middle;
+        width: 100%;
       }
       
       /** Annika's Food Journal Title **/
@@ -39,6 +47,14 @@
         font-size: 25px;
         font-family: "Playfair Display";
         font-weight: 400;
+        font-style: normal;
+      }
+      
+      /** Smaller Titles for Each Location/Restaurant **/
+      h3 {
+        font-size: 20px;
+        font-family: "Playfair Display";
+        font-weight: 500;
         font-style: normal;
       }
       
@@ -78,6 +94,12 @@
         background-color: #c4bfab;
       }
       
+      img {
+        width: 400px;
+        float: left;
+        overflow: hidden;
+        padding-right: 20px;
+      }
       
     </style>
     
@@ -111,7 +133,32 @@
       
       
       
-     
+      <img src="melsDiner.jpg" alt="Mels Diner Breakfast">
+      
+      <div id="rightText">
+        
+        
+        <h3>
+          Mel's Diner - 140 University Ave W, Waterloo, ON
+        </h3>
+
+        <p>
+          BYO Omelette: Spinach, Ham. Served with homefries <br>
+          Price: 11.49 CAD <br>
+        </p>
+
+        <p>
+          Eggs were nicely done and did not give me the egg ick. The homefries were quite tasty however needed a bit more salt. Not sure if the bread was necessary but I love bread so I'll let that one slide. Not bad at all but could be better which is why it's not a 10/10.
+        </p>
+        
+        <p><u> Overall Rating: 7.5/10 </u>
+        </p>
+        
+      </div>
+      
+      
+      
+      
     </div>
       
   </body>
